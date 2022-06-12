@@ -1,7 +1,9 @@
 setupevn:
 	python3 -m venv ~/.myrepo
+	
 gotoevn:
 	source ~/.myrepo/bin/activate
+
 install:
     pip install --upgrade pip &&\
         pip install -r requirements.txt
